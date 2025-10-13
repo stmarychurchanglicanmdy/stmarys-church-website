@@ -2,34 +2,38 @@
 const ARTICLES = [
   {
     id: '1',
-    slug: 'community-gathering-fellowship',
-    title: 'Community Gathering and Fellowship',
-    date: '2025-08-15',
-    author: 'Rev. Sarah Johnson',
-    tags: ['community', 'fellowship'],
-    excerpt: 'Join us for a simple time of prayer, songs, and tea as we strengthen the bonds of our church family.',
+    slug: 'community-earthquake-donation',
+    title: 'Local Church in Myanmar Helps People Recover and Rebuild After Earthquake',
+    date: '2025-06-11',
+    author: 'abmission.org',
+    tags: ['community', 'earthquake','donation'],
+    excerpt: 'The Church of the Province of Myanmar, with support from ABM AID and local volunteers, quickly responded to the March 2025 earthquake in Mandalay and Taungoo by providing food, cash assistance, and planning reconstruction efforts, as reported by abmission.org',
     image: {
-      src: 'assets/images/article-1.jpg',
-      alt: 'Church community gathering with people sharing tea and conversation'
+      src: 'assets/images/abmission-1.jpg',
+      alt: 'MYANMAR: Archdeacon Joseph Yin Oo (L), CPM Development Director Stella Zin Zin Wah (R) and volunteers from St Mary’s Church in Mandalay, preparing to distribute relief packages to families affected by the March 2025 earthquake. © CPM. Used with permission.'
     },
     contentHtml: `
-      <p>There is something profoundly beautiful about gathering together as a community of faith. This month, we were blessed to share an evening of fellowship that reminded us of the importance of connection, prayer, and simple joy in one another's company.</p>
+       <figcaption style="font-size: 0.85em; font-style: italic; color: #555;">
+      MYANMAR: Archdeacon Joseph Yin Oo (L), CPM Development Director Stella Zin Zin Wah (R) and volunteers from St Mary’s Church in Mandalay, preparing to distribute relief packages to families affected by the March 2025 earthquake. © CPM. Used with permission.
+      </figcaption>
+      <br>
+
+      <p>The Church of the Province of Myanmar (CPM) is getting used to responding to emergencies. When an earthquake struck the Dioceses of Mandalay and Taungoo in March 2025, the church and its network of volunteers were quick to respond.</p>
       
-      <p>Our community gathering brought together members from all walks of life, united in our shared faith and commitment to supporting one another. The evening began with a time of quiet prayer, allowing us to center ourselves and open our hearts to God's presence among us.</p>
+      <p>Thanks to the generosity of our supporters, ABM AID was able to support the distribution of food relief and cash assistance to more than 500 earthquake-affected families across both dioceses.</p>
       
-      <h2>Activities and Connections</h2>
-      <p>The evening included several meaningful activities that helped deepen our connections:</p>
-      <ul>
-        <li>Shared prayer and reflection time</li>
-        <li>Traditional hymns and contemporary songs</li>
-        <li>Tea and light refreshments</li>
-        <li>Small group conversations</li>
-        <li>Planning for upcoming community service projects</li>
-      </ul>
-      
-      <p>These gatherings remind us that faith is not just an individual journey, but a communal one. In sharing our stories, our hopes, and our challenges, we find strength and encouragement that sustains us throughout the week.</p>
-      
-      <p>We look forward to our next gathering and invite all members of our community to join us. Whether you've been part of St. Mary's for decades or are just beginning to explore faith, you are welcome at our table.</p>
+      <p>This included special cash assistance packages to people living with disability, as well as to families that were hosting other displaced families. Local volunteers actively worked together with CPM and diocesan staff to organise the relief distributions.</p>
+      <figure>
+         <img src="assets/images/abmission-2.jpg" alt="MYANMAR: Archdeacon Joseph Yin Oo (L), CPM Development Director Stella Zin Zin Wah (R) and volunteers from St Mary’s Church in Mandalay, preparing to distribute relief packages to families affected by the March 2025 earthquake. © CPM. Used with permission.">
+         <figcaption style="font-size: 0.85em; font-style: italic; color: #555;">
+           In Mandalay, Archdeacon Joseph Yin Oo (left) and church volunteer Naw Aung prepare relief packages for distribution. © CPM. Used with permission. 
+         </figcaption>
+      </figure>
+      <br>
+    
+      <p>In June this year, CPM will begin reconstruction of community buildings. Due to the imminent arrival of the rainy season in Myanmar, reconstruction needs to begin as soon as possible.</p>
+      <p>We would like to profoundly thank ABM AID supporters for their generous response to our Myanmar Earthquake Emergency Appeal, which remains open.</p>
+      <p>We are also grateful to other Anglican agencies overseas, and to CPM and diocesan staff and volunteers: everyone has played their part in helping families get back on their feet after the earthquake.</p>
     `
   },
   {
@@ -62,7 +66,10 @@ const ARTICLES = [
       <p>What we consistently discover in our service work is that we receive far more than we give. In caring for others, we encounter Christ in new and unexpected ways. We learn about resilience, gratitude, and the profound dignity of every human being.</p>
       
       <p>If you feel called to join us in serving our neighbors, we welcome your participation. There are opportunities for every schedule, skill set, and comfort level. Together, we can make a meaningful difference in the lives of those around us.</p>
-    `
+    
+    
+    
+      `
   },
   {
     id: '3',

@@ -58,6 +58,7 @@ body {
   color: var(--color-text);
   background-color: var(--color-bg);
   transition: var(--transition);
+  
 }
 
 /* Typography */
@@ -77,6 +78,7 @@ h6 { font-size: 1rem; }
 
 p {
   margin-bottom: var(--spacing-sm);
+  
 }
 
 a {
