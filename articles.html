@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articles - St. Mary's Church</title>
+    <meta name="description" content="Read the latest news and articles from St. Mary's Anglican Church in Mandalay, Myanmar.">
+    
+    <!-- SEO and Social -->
+    <link rel="canonical" href="https://stmarymandalay.org/articles.html">
+    <meta property="og:title" content="Articles - St. Mary's Church">
+    <meta property="og:description" content="Read the latest news and articles from St. Mary's Anglican Church in Mandalay, Myanmar.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://stmarymandalay.org/articles.html">
+    <meta property="og:image" content="https://stmarymandalay.org/assets/images/hero.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="site-title">
+                    <h1><a href="index.html">St. Mary's Church</a></h1>
+                    <p class="site-subtitle">Anglican Church, Mandalay, Myanmar</p>
+                </div>
+                
+                <nav class="nav" role="navigation" aria-label="Main navigation">
+                    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="nav-toggle-icon"></span>
+                    </button>
+                    <ul class="nav-menu" id="nav-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="history.html">History</a></li>
+                        <li><a href="articles.html" aria-current="page">Articles</a></li>
+                        <li><a href="visit-contact.html">Visit & Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <header class="page-header">
+                <h1>Articles</h1>
+                <p>News, reflections, and updates from our church community.</p>
+            </header>
+
+            <!-- Filters and Search -->
+            <div class="articles-controls">
+                <div class="search-box">
+                    <label for="article-search" class="sr-only">Search articles</label>
+                    <input type="text" id="article-search" placeholder="Search articles..." class="search-input">
+                </div>
+                
+                <div class="filter-controls">
+                    <label for="tag-filter" class="filter-label">Filter by tag:</label>
+                    <select id="tag-filter" class="tag-filter">
+                        <option value="">All tags</option>
+                    </select>
+                    
+                    <label for="sort-order" class="filter-label">Sort by:</label>
+                    <select id="sort-order" class="sort-filter">
+                        <option value="newest">Newest first</option>
+                        <option value="oldest">Oldest first</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Articles Grid -->
+            <div class="articles-grid" id="articles-grid">
+                <!-- Articles will be loaded here by JavaScript -->
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination" id="pagination">
+                <!-- Pagination will be loaded here by JavaScript -->
+            </div>
+
+            <!-- No Results Message -->
+            <div class="no-results" id="no-results" style="display: none;">
+                <p>No articles found matching your criteria.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>St. Mary's Church</h3>
+                    <p>A welcoming Anglican community in the heart of Mandalay.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="history.html">History</a></li>
+                        <li><a href="articles.html">Articles</a></li>
+                        <li><a href="visit-contact.html">Visit & Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>Email: <a href="mailto:stmarychurchanglicanmdy@gmail.com">stmarychurchanglicanmdy@gmail.com</a></p>
+                    <p>Phone: <a href="tel:+959402610602">+959402610602</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> St. Mary's Church. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" aria-label="Toggle dark mode">
+        <span class="theme-toggle-icon"></span>
+    </button>
+
+    <!-- Scripts -->
+    <script src="data/articles.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/articles.js"></script>
+</body>
+</html>
