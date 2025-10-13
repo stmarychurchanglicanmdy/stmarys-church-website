@@ -523,6 +523,33 @@ main {
   color: var(--color-accent);
 }
 
+/*added history session*/
+.timeline-title{
+  margin: 0 0 0.6rem 0;
+  font-size: 1.05rem;
+  color: var(--accent);
+}
+
+.timeline-list{
+  margin: 0;
+  padding-left: 1rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.timeline-list li{
+  margin: 0.45rem 0;
+}
+
+/* small decorative time style */
+.timeline-list time{
+  display:inline-block;
+  min-width:84px;
+  margin-right:.6rem;
+  font-weight:600;
+  color: #333;
+}
+
 /* Page content */
 .page-content {
   padding: var(--spacing-lg) 0;
