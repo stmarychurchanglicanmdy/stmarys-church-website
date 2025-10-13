@@ -448,6 +448,26 @@ main {
   gap: var(--spacing-md);
 }
 
+.article-figure {
+  max-width: 100%;       /* figure width does not exceed container */
+  margin: 1em 0;         /* space around figure */
+  text-align: center;    /* center image and caption */
+}
+
+.article-figure img {
+  width: 100%;           /* image fills the figure width */
+  height: auto;          /* maintain aspect ratio */
+  max-width: 800px;      /* optional: limits image size on large screens */
+  border-radius: 4px;    /* optional: slightly rounded corners */
+}
+
+.article-figure figcaption {
+  font-size: 0.85em;
+  font-style: italic;
+  color: #555;
+  margin-top: 0.5em;
+}
+
 .article-card {
   background-color: var(--color-bg);
   border: 1px solid var(--color-border);

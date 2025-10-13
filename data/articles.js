@@ -23,7 +23,8 @@ const ARTICLES = [
       <p>Thanks to the generosity of our supporters, ABM AID was able to support the distribution of food relief and cash assistance to more than 500 earthquake-affected families across both dioceses.</p>
       
       <p>This included special cash assistance packages to people living with disability, as well as to families that were hosting other displaced families. Local volunteers actively worked together with CPM and diocesan staff to organise the relief distributions.</p>
-      <figure>
+      <br>
+      <figure class="article-figure">
          <img src="assets/images/abmission-2.jpg" alt="MYANMAR: Archdeacon Joseph Yin Oo (L), CPM Development Director Stella Zin Zin Wah (R) and volunteers from St Mary’s Church in Mandalay, preparing to distribute relief packages to families affected by the March 2025 earthquake. © CPM. Used with permission.">
          <figcaption style="font-size: 0.85em; font-style: italic; color: #555;">
            In Mandalay, Archdeacon Joseph Yin Oo (left) and church volunteer Naw Aung prepare relief packages for distribution. © CPM. Used with permission. 
