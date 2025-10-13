@@ -449,16 +449,16 @@ main {
 }
 
 .article-figure {
-  max-width: 100%;       /* figure width does not exceed container */
-  margin: 1em 0;         /* space around figure */
-  text-align: center;    /* center image and caption */
+  width: 100%;           /* figure takes full width of its container */
+  max-width: 600px;      /* limits figure size on large screens */
+  margin: 1em auto;      /* centers figure horizontally */
+  text-align: center;
 }
 
 .article-figure img {
   width: 100%;           /* image fills the figure width */
-  height: auto;          /* maintain aspect ratio */
-  max-width: 800px;      /* optional: limits image size on large screens */
-  border-radius: 4px;    /* optional: slightly rounded corners */
+  height: auto;          /* preserves aspect ratio */
+  display: block;        /* removes small bottom gap under image */
 }
 
 .article-figure figcaption {
