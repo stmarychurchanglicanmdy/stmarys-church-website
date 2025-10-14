@@ -40,36 +40,41 @@ const ARTICLES = [
   {
     id: '2',
     slug: 'serving-our-neighbors',
-    title: 'Serving Our Neighbors',
-    date: '2025-07-01',
-    author: 'Margaret Chen',
-    tags: ['service', 'outreach'],
-    excerpt: 'A reflection on practical ways we can care for our city and extend Christ\'s love to those around us.',
+    title: 'Mother’s Union of St. Mary’s Church Donates Evening Meals to 300-Bed COVID Treatment Center in Mandalay',
+    date: '2020-11-27',
+    author: 'Gamaliel Tun',
+    tags: ['service', 'outreach', 'covid', 'MU' ],
+    excerpt: 'A heartfelt act of kindness from the Mother’s Union of St. Mary’s Church, bringing encouragement and gratitude to frontline healthcare workers during the pandemic.',
     image: {
-      src: 'assets/images/article-2.jpg',
-      alt: 'Volunteers preparing meals for community outreach'
+      src: 'assets/images/coviddonation-1.jpg',
+      alt: 'Volunteers and the Medical Team'
     },
     contentHtml: `
-      <p>The call to serve our neighbors is at the heart of the Christian faith. As a church community, we are continually seeking ways to extend Christ's love beyond our walls and into the streets of Mandalay.</p>
-      
-      <p>Service takes many forms, and we have discovered that some of the most meaningful acts of care are also the simplest. Whether it's preparing a meal for a family in need, visiting elderly members of our community, or offering practical support to those facing difficult circumstances, every act of service reflects God's love.</p>
-      
-      <h2>Current Service Initiatives</h2>
-      <p>Our church is currently involved in several ongoing service projects that allow us to make a positive impact in our community:</p>
-      
-      <p><strong>Meal Preparation:</strong> Each month, volunteers gather to prepare meals for families experiencing hardship. This ministry has grown from a small group of dedicated members to a community-wide effort that feeds dozens of families.</p>
-      
-      <p><strong>Elder Care:</strong> Our pastoral care team regularly visits elderly members of our congregation and community, providing companionship, prayer, and practical assistance with daily tasks.</p>
-      
-      <p><strong>Community Support:</strong> We maintain a fund to help with emergency needs such as medical expenses, temporary housing assistance, and educational support for children in our community.</p>
-      
-      <h2>The Joy of Giving</h2>
-      <p>What we consistently discover in our service work is that we receive far more than we give. In caring for others, we encounter Christ in new and unexpected ways. We learn about resilience, gratitude, and the profound dignity of every human being.</p>
-      
-      <p>If you feel called to join us in serving our neighbors, we welcome your participation. There are opportunities for every schedule, skill set, and comfort level. Together, we can make a meaningful difference in the lives of those around us.</p>
-    
-    
-    
+      <figcaption style="font-size: 0.85em; font-style: italic; color: #555;">
+      MYANMAR: Archdeacon Joseph Yin Oo (Middle),Medical Team (R) and Volunteers from St Mary’s Church Mothers Union in Mandalay(L)
+      </figcaption>
+      <br>
+
+      <p>The Mother’s Union of St. Mary’s Church, Mandalay, made a generous donation of evening meals to the 300-Bed COVID-19 Treatment Center in Mandalay. This act of kindness was carried out to support and encourage the doctors, nurses, and healthcare workers who have been tirelessly caring for patients during the pandemic.</p>
+      <p>Through this heartfelt gesture, the Mother’s Union expressed their deep gratitude for the medical team’s dedication and sacrifice. The donation also embodied the spirit of Christian love, compassion, and unity, bringing comfort and appreciation to those serving on the frontlines in challenging times.</p>
+      <figure class="article-figure">
+         <img src="assets/images/coviddonation-2.jpg" alt="">
+         <figcaption style="font-size: 0.85em; font-style: italic; color: #555;">
+           Donated Meals.
+         </figcaption>
+      </figure>
+      <figure class="article-figure">
+         <img src="assets/images/coviddonation-3.jpg" alt="">
+         <figcaption style="font-size: 0.85em; font-style: italic; color: #555;">
+           Volunteers preparing for distribution.
+         </figcaption>
+      </figure>
+      <figure class="article-figure">
+         <img src="assets/images/coviddonation-4.jpg" alt="">
+         <figcaption style="font-size: 0.85em; font-style: italic; color: #555;">
+           Volunteers preparing for distribution.
+         </figcaption>
+      </figure>
       `
   },
   {
