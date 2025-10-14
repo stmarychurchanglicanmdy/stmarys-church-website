@@ -285,6 +285,40 @@ const ARTICLES = [
          <img src="assets/images/coviddonation-7.jpeg" alt="">
       </figure>
       `
+  },
+  {
+    id: '6',
+    slug: 'youth-ministry-2023',
+    title: 'The Induction and Dedication Program for the New Youth Leadership',
+    date: '2023-03-26',
+    author: 'Gamaliel Tun',
+    tags: ['youth', 'community','leadership', 'ministry'],
+    excerpt: 'St. Mary&#39;s Church Mandalay (Anglican) held a significant service on March 26, 2023, to induct and dedicate its new Youth Ministry leadership, reinforcing its commitment to empowering the next generation within the church.',
+    image: {
+      src: 'assets/images/youth-1.jpeg',
+      alt: 'Group Photo of Mandalay St.Mary$#39;s Church AYPA'
+    },
+    contentHtml: `
+
+      <figcaption style="font-size: 0.85em; font-style: italic; color: #555;">
+        Group Photo of Mandalay St.Mary's Church AYPA
+      </figcaption>
+         <br>
+      <p>St. Mary's Church Mandalay (Anglican) held a special service for the induction and dedication of its new Youth Ministry leadership on March 26, 2023. The event took place within the historic sanctuary of St. Mary’s Church. This service formally recognized and dedicated the young men and women stepping into roles of responsibility within the church's youth ministry. The gathering underscored the church's commitment to empowering its younger members and investing in the future of the Anglican faith in Mandalay.
+      <figure class="article-figure">
+         <img src="assets/images/youth-2.jpeg" alt="">
+         <figcaption style="font-size: 0.85em; font-style: italic; color: #555;">
+           Induction Service
+         </figcaption>
+      </figure>
+      <figure class="article-figure">
+         <img src="assets/images/youth-3.jpeg" alt="">
+         <figcaption style="font-size: 0.85em; font-style: italic; color: #555;">
+           St Mary's AYPA Youths 2023
+         </figcaption>
+      </figure>
+</p>
+      `
   }
 ];
 
