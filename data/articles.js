@@ -242,8 +242,6 @@ const ARTICLES = [
          </figcaption>
       </figure>
 
-
-
       <h5>Support Our Dual Mission</h5>
 
       <p>St. Mary's Church Mandalay (Anglican) stands firm in its commitment to this dual mission: building lasting spiritual foundations through the construction of the Ho Mong Chapel and offering immediate, tangible support to communities facing hardship.</p>
