@@ -279,7 +279,7 @@ main {
 /* Hero section */
 .hero {
   background-color: var(--color-bg-alt);
-  background-image: url('../images/hero.jpg');
+  background: url('../images/stmarychurchphoto-6.jpg');
   background-size: cover;
   background-position: center;
   background-blend-mode: overlay;
@@ -295,7 +295,7 @@ main {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 [data-theme="dark"] .hero::before {
@@ -313,12 +313,14 @@ main {
   font-size: clamp(2.5rem, 6vw, 4rem);
   margin-bottom: var(--spacing-sm);
   color: var(--color-text);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .hero-tagline {
   font-size: clamp(1.125rem, 3vw, 1.5rem);
-  color: var(--color-text-muted);
+  color: var(--color-text);
   margin-bottom: var(--spacing-lg);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .hero-actions {
