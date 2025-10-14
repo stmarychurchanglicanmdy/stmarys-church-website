@@ -250,6 +250,41 @@ const ARTICLES = [
 
 
       `
+  },
+  {
+    id: '5',
+    slug: 'covid-relief-donation-2020',
+    title: 'A Pillar of Support During the 2020 Pandemic',
+    date: '2020-12-11',
+    author: 'Gamaliel Tun',
+    tags: ['covid', 'community','donation'],
+    excerpt: 'During the challenging 2020 COVID-19 pandemic, St. Mary&#39;s Church Mandalay (Anglican) mobilized a robust relief effort, distributing essential food packages to its congregation members facing hardship. The Church also extended its compassion to the frontlines by providing meals and supplies to exhausted medical staff at a local hospital, embodying active faith in a time of crisis.',
+    image: {
+      src: 'assets/images/coviddonation-6.jpeg',
+      alt: 'Preparing donations before distribution'
+    },
+    contentHtml: `
+
+      <figcaption style="font-size: 0.85em; font-style: italic; color: #555;">
+        Church Leaders Preparing donations before distribution
+      </figcaption>
+         <br>
+      <p>While the world struggled with the unprecedented challenges of the COVID-19 pandemic in 2020, St. Mary’s Church Mandalay (Anglican) stood as a beacon of Christian solidarity, extending vital support to its members and frontline workers throughout the crisis.
+    In line with the Anglican tradition of social ministry, the Church recognized the immense economic and health pressures facing the community during nationwide lockdowns and restrictions. Under the leadership of the Diocese of Mandalay, a dedicated relief effort was quickly mobilized to ensure the most vulnerable were cared for.</p>
+      <figure class="article-figure">
+         <img src="assets/images/coviddonation-8.jpeg" alt="">
+         <figcaption style="font-size: 0.85em; font-style: italic; color: #555;">
+           distributing donations
+         </figcaption>
+      </figure>
+      <h5>Aid for Church Families and Community</h5>  
+      <p>During the peak of the pandemic’s impact in 2020, St. Mary’s Church implemented a support program focused on alleviating hunger and economic stress for its members.</p>
+      <p><strong>Essential Food Distribution</strong>: Relief supplies, including sacks of rice and other essential goods, were gathered and blessed within the church sanctuary. The church teams then prepared and distributed care packages (seen packed in bright green bags) to vulnerable families within the congregation and the wider community. This aid was crucial for families facing income loss due to restrictions.</p>
+      <p><strong>Pastoral Care</strong>: Clergy and church leaders were on hand to supervise the distribution efforts, offering spiritual comfort and support alongside material aid, reflecting the Church's commitment to holistic care.</p>
+      <figure class="article-figure">
+         <img src="assets/images/coviddonation-7.jpeg" alt="">
+      </figure>
+      `
   }
 ];
 
