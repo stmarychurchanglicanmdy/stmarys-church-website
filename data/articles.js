@@ -79,47 +79,104 @@ const ARTICLES = [
   },
   {
     id: '3',
-    slug: 'sermon-series-hope-faith',
-    title: 'Sermon Series: Hope and Faith',
-    date: '2025-06-10',
-    author: 'Rev. David Thompson',
-    tags: ['worship', 'teaching'],
+    slug: 'earthquake-march-2025',
+    title: 'Our Walls Are Down, Our Faith Stands: St. Mary’s Church Faces the March 28th Catastrophe',
+    date: '2025-03-30',
+    author: 'Gamaliel Tun',
+    tags: ['disaster', 'community','earthquake','church'],
     excerpt: 'Exploring themes of hope and faith in everyday life through Scripture and shared reflection.',
     image: {
-      src: 'assets/images/article-3.jpg',
-      alt: 'Open Bible on church pulpit with stained glass window in background'
+      src: 'assets/images/eqdamage-1.jpg',
+      alt: 'South Wing of the Church Severly Damaged'
     },
     contentHtml: `
-      <p>Faith and hope are not mere concepts to be understood intellectually, but living realities that shape how we navigate the joys and challenges of daily life. Our recent sermon series has explored these foundational themes through Scripture, prayer, and community reflection.</p>
+      <p>In the wake of the catastrophic 7.7 magnitude earthquake that has ravaged the Mandalay-Sagaing region, the Church of the Province of Myanmar (CPM) mourns the devastating damage inflicted upon our historic St. Mary’s Church (Anglican). A venerable cornerstone of the Diocese of Mandalay, our red-brick church, which has stood as a bastion of Anglican faith and community service for generations, is now heartbreakingly broken.</p>
+      <p>As the Primate of the Church of the Province of Myanmar, the Most Rev. Stephen Than, has stated, the crisis is "overwhelming." Yet, in accordance with our Anglican tradition—rooted in Scripture, Tradition, and Reason—we look not only to the material damage but to the spiritual resilience of our community.</p>    
       
-      <p>Over the course of six weeks, we have journeyed through biblical passages that illuminate the nature of faith and hope, examining how these gifts from God can transform our perspective and strengthen our resolve in difficult times.</p>
+      <h3>The Material Toll on a Sacred Space</h3>
+      <p>
+      The severity of the tremor, with its epicenter near our city, is visible in every corner of our compound. 
+      The physical wounds to <strong>St. Mary’s</strong> are profound:
+      </p>
+      <figure class="article-figure">
+         <img src="assets/images/eqdamage-3.jpg" alt="">
+         <figcaption style="font-size: 0.85em; font-style: italic; color: #555;">
+           North Wing of the Church
+         </figcaption>
+      </figure>
       
-      <h2>Weekly Themes</h2>
-      <p>Each week of our series focused on a different aspect of faith and hope:</p>
+      <h4>Collapse of the Upper Structure</h4>
+      <p>
+      The very crown of our sanctuary has been struck. The upper brickwork and parapet have given way entirely, 
+      scattering debris and leaving the roofline exposed and vulnerable. 
+      That a structure built to endure for a century could be so severely compromised 
+      speaks to the immense power of this natural disaster.
+      </p>
+      <figure class="article-figure">
+         <img src="assets/images/eqdamage-10.jpg" alt="">
+         <figcaption style="font-size: 0.85em; font-style: italic; color: #555;">
+           North Side of the Church
+         </figcaption>
+      </figure>
+      <figure class="article-figure">
+         <img src="assets/images/eqdamage-8.jpg" alt="">
+         <figcaption style="font-size: 0.85em; font-style: italic; color: #555;">
+           North Wing, Upper Structure
+         </figcaption>
+      </figure>
+
+      <h4>A Raining Down of Ruin</h4>
+      <p>
+      The interior bears a painful testament to the violence of the shaking. 
+      Areas surrounding the sanctuary and within other church rooms are filled with the rubble of collapsed masonry, 
+      plaster, and shattered furniture. 
+      Though the main altar remains, it is now surrounded by the detritus of the fallen building, 
+      a sobering scene that reminds us of the fragility of our earthly structures.
+      </p>
+      <figure class="article-figure">
+         <img src="assets/images/eqdamage-5.jpg" alt="">
+         <figcaption style="font-size: 0.85em; font-style: italic; color: #555;">
+           Altar, Santuary
+         </figcaption>
+      </figure>
+      <figure class="article-figure">
+         <img src="assets/images/eqdamage-4.jpg" alt="">
+         <figcaption style="font-size: 0.85em; font-style: italic; color: #555;">
+           Near North Wing, Interior Damages
+         </figcaption>
+      </figure>
+      <figure class="article-figure">
+         <img src="assets/images/eqdamage-6.jpg" alt="">
+         <figcaption style="font-size: 0.85em; font-style: italic; color: #555;">
+           Congregation, Interior Damages
+         </figcaption>
+      </figure>
+
+      <h4>The Wider Impact</h4>
+      <p>
+      Beyond our main church, the adjacent church grounds and compound are strewn with bricks and debris. 
+      This damage is a microcosm of the devastation across the entire <strong>Diocese of Mandalay</strong>, 
+      is working closely to respond to the catastrophic needs of our parishes.
+      </p>
+      <figure class="article-figure">
+         <img src="assets/images/eqdamage-2.jpg" alt="">
+         <figcaption style="font-size: 0.85em; font-style: italic; color: #555;">
+           South Side of the Church
+         </figcaption>
+      </figure>
+
+      <h3>The Living Church Responds</h3>
+      <p>While we grieve the loss of our beautiful edifice, the true Church—the body of Christ in Myanmar—is mobilized. In the spirit of the Anglican commitment to mission and service, our focus is immediately shifting to pastoral and humanitarian relief.</p>
+      <h4>A Place of Refuge</h4>
+      <p>Our church buildings, even those damaged, are being pressed into service. Archdeacon Joseph Yin Oo and our diocesan staff are working tirelessly with volunteers, distributing emergency supplies—food, water, and temporary shelter materials—to affected parishioners and the wider community, including those of non-Christian faiths. Our churches are being transformed into immediate centers of refuge.</p>
+      <h4>Partnership and Prayer</h4>
+      <p>We stand in solidarity with the Church of the Province of Myanmar's Disaster Management Committee. We are grateful for the swift response from our partners in the global Anglican Communion, including the Anglican Alliance, who are helping us coordinate resources for the urgent phase of relief and the monumental task of rehabilitation and reconstruction that lies ahead.</p>
       
-      <p><strong>Week 1: Faith as Trust</strong><br>
-      We explored how faith is fundamentally about trust in God's character and promises, even when circumstances are uncertain.</p>
+      <p>We humbly ask the worldwide Anglican Communion and all people of goodwill to join us in prayer for the countless lives lost and injured, for the thousands left homeless, and for the fortitude of our clergy, Mothers' Union, and volunteers as they embody the love of Christ in this time of unparalleled suffering. Our building may be shaken, but our faith in God’s providence and our commitment to serving our neighbours remain resolute.</p>
       
-      <p><strong>Week 2: Hope in Adversity</strong><br>
-      Through the stories of biblical figures who faced tremendous challenges, we learned about hope that persists even in the darkest moments.</p>
+      <p>We take comfort in these words as we begin the arduous process of rebuilding our sacred home.</p>
       
-      <p><strong>Week 3: Community of Faith</strong><br>
-      We examined how faith is strengthened and sustained through community, and how we can support one another in our spiritual journeys.</p>
-      
-      <p><strong>Week 4: Active Hope</strong><br>
-      This week focused on hope as more than passive waiting, but as an active force that motivates us to work for justice and healing in our world.</p>
-      
-      <p><strong>Week 5: Faith in Daily Life</strong><br>
-      We discussed practical ways to live out our faith in everyday situations, from family relationships to work responsibilities.</p>
-      
-      <p><strong>Week 6: Hope for the Future</strong><br>
-      Our final week looked at the ultimate hope we have in God's kingdom and how that hope shapes our present actions and attitudes.</p>
-      
-      <h2>Continuing the Conversation</h2>
-      <p>While our formal sermon series has concluded, the conversation about faith and hope continues in our small groups, prayer meetings, and daily interactions. We encourage all members of our community to reflect on how these themes apply to their own spiritual journey.</p>
-      
-      <p>If you missed any of the sermons in this series, recordings are available, and we would be happy to discuss these themes with you personally. Faith and hope are gifts that grow stronger when shared with others.</p>
-    `
+      `
   }
 ];
 
