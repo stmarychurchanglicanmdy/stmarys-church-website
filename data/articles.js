@@ -84,7 +84,7 @@ const ARTICLES = [
     date: '2025-03-30',
     author: 'Gamaliel Tun',
     tags: ['disaster', 'community','earthquake','church'],
-    excerpt: '<p>St. Mary&#39;s Church Mandalay (Anglican) has suffered heartbreaking, catastrophic damage from the recent 7.7 magnitude earthquake. Despite the physical devastation to its historic structure, the Church of the Province of Myanmar remains resolute in faith, mobilizing for both spiritual resilience and critical humanitarian relief across the Diocese of Mandalay.</p>',
+    excerpt: '<p>St. Mary&#39;s Church has suffered heartbreaking, catastrophic damage from the recent 7.7 magnitude earthquake. Despite the physical devastation to its historic structure, the Church of the Province of Myanmar remains resolute in faith, mobilizing for both spiritual resilience and critical humanitarian relief across the Diocese of Mandalay.</p>',
     image: {
       src: 'assets/images/eqdamage-1.jpg',
       alt: 'South Wing of the Church Severly Damaged'
@@ -196,7 +196,7 @@ const ARTICLES = [
            Church Medical Volunteer Helping to those in need. Dr. Marlar Than (L), Grace Yin Oo (R)
          </figcaption>
          <br>
-      <p>St. Mary's Church Mandalay (Anglican) is deeply rooted in the principle that faith must be active in both word and deed. Our ongoing mission work in remote Southern Shan State exemplifies this commitment, focusing on the spiritual nurture of the Shan people while also providing critical humanitarian aid when disaster strikes.</p>
+      <p>St. Mary's Church is deeply rooted in the principle that faith must be active in both word and deed. Our ongoing mission work in remote Southern Shan State exemplifies this commitment, focusing on the spiritual nurture of the Shan people while also providing critical humanitarian aid when disaster strikes.</p>
       <h5> A New Sanctuary in Ho Mong</h5>
       
       <p>A primary focus of our current outreach is among the Shan ethnic group (ရှမ်းလူမျိုးများ), particularly in Ho Mong Town (ဟိုမိန်း မြို့). This region is recognized as a vital missionary frontier for St. Mary's Church Mandalay (Anglican).</p>
@@ -226,7 +226,7 @@ const ARTICLES = [
            Prayers in Hand
          </figcaption>
       </figure>
-      <p>When the floodwaters rose, St. Mary's Church Mandalay (Anglican) teams did not hesitate. We were privileged to go to the affected area to provide aid, comfort, and practical support to the victims. This disaster response mission ensured that the Ho Mong families and their neighbours received crucial assistance during a time of immense loss and displacement. Our presence in the field during the 2024 crisis reinforced the understanding that the Church is a steadfast source of help and hope, in good times and in bad.</p>
+      <p>When the floodwaters rose, St. Mary's Church teams did not hesitate. We were privileged to go to the affected area to provide aid, comfort, and practical support to the victims. This disaster response mission ensured that the Ho Mong families and their neighbours received crucial assistance during a time of immense loss and displacement. Our presence in the field during the 2024 crisis reinforced the understanding that the Church is a steadfast source of help and hope, in good times and in bad.</p>
       <figure class="article-figure">
          <img src="assets/images/linkhay-7.jpeg" alt="">
          <figcaption style="font-size: 0.85em; font-style: italic; color: #555;">
@@ -244,7 +244,7 @@ const ARTICLES = [
 
       <h5>Support Our Dual Mission</h5>
 
-      <p>St. Mary's Church Mandalay (Anglican) stands firm in its commitment to this dual mission: building lasting spiritual foundations through the construction of the Ho Mong Chapel and offering immediate, tangible support to communities facing hardship.</p>
+      <p>St. Mary's Church stands firm in its commitment to this dual mission: building lasting spiritual foundations through the construction of the Ho Mong Chapel and offering immediate, tangible support to communities facing hardship.</p>
 
       <p>We invite all members and partners to join us in prayer and support for the Shan people, particularly as we work to secure the remaining resources needed to build their new spiritual home.</p>
 
@@ -258,7 +258,7 @@ const ARTICLES = [
     date: '2020-12-11',
     author: 'Gamaliel Tun',
     tags: ['covid', 'community','donation'],
-    excerpt: 'During the challenging 2020 COVID-19 pandemic, St. Mary&#39;s Church Mandalay (Anglican) mobilized a robust relief effort, distributing essential food packages to its congregation members facing hardship. The Church also extended its compassion to the frontlines by providing meals and supplies to exhausted medical staff at a local hospital, embodying active faith in a time of crisis.',
+    excerpt: 'During the challenging 2020 COVID-19 pandemic, St. Mary&#39;s Church mobilized a robust relief effort, distributing essential food packages to its congregation members facing hardship. The Church also extended its compassion to the frontlines by providing meals and supplies to exhausted medical staff at a local hospital, embodying active faith in a time of crisis.',
     image: {
       src: 'assets/images/coviddonation-6.jpeg',
       alt: 'Preparing donations before distribution'
@@ -269,7 +269,7 @@ const ARTICLES = [
         Church Leaders Preparing donations before distribution
       </figcaption>
          <br>
-      <p>While the world struggled with the unprecedented challenges of the COVID-19 pandemic in 2020, St. Mary’s Church Mandalay (Anglican) stood as a beacon of Christian solidarity, extending vital support to its members and frontline workers throughout the crisis.
+      <p>While the world struggled with the unprecedented challenges of the COVID-19 pandemic in 2020, St. Mary’s Church stood as a beacon of Christian solidarity, extending vital support to its members and frontline workers throughout the crisis.
     In line with the Anglican tradition of social ministry, the Church recognized the immense economic and health pressures facing the community during nationwide lockdowns and restrictions. Under the leadership of the Diocese of Mandalay, a dedicated relief effort was quickly mobilized to ensure the most vulnerable were cared for.</p>
       <figure class="article-figure">
          <img src="assets/images/coviddonation-8.jpeg" alt="">
@@ -293,7 +293,7 @@ const ARTICLES = [
     date: '2023-03-26',
     author: 'Gamaliel Tun',
     tags: ['youth', 'community','leadership', 'ministry'],
-    excerpt: 'St. Mary&#39;s Church Mandalay (Anglican) held a significant service on March 26, 2023, to induct and dedicate its new Youth Ministry leadership, reinforcing its commitment to empowering the next generation within the church.',
+    excerpt: 'St. Mary&#39;s Church held a significant service on March 26, 2023, to induct and dedicate its new Youth Ministry leadership, reinforcing its commitment to empowering the next generation within the church.',
     image: {
       src: 'assets/images/youth-1.jpg',
       alt: 'Group Photo of Mandalay St.Mary$#39;s Church AYPA'
@@ -303,7 +303,7 @@ const ARTICLES = [
         Group Photo of Mandalay St.Mary's Church AYPA
       </figcaption>
          <br>
-      <p>St. Mary's Church Mandalay (Anglican) held a special service for the induction and dedication of its new Youth Ministry leadership on March 26, 2023. The event took place within the historic sanctuary of St. Mary’s Church. This service formally recognized and dedicated the young men and women stepping into roles of responsibility within the church's youth ministry. The gathering underscored the church's commitment to empowering its younger members and investing in the future of the Anglican faith in Mandalay.
+      <p>St. Mary's Church held a special service for the induction and dedication of its new Youth Ministry leadership on March 26, 2023. The event took place within the historic sanctuary of St. Mary’s Church. This service formally recognized and dedicated the young men and women stepping into roles of responsibility within the church's youth ministry. The gathering underscored the church's commitment to empowering its younger members and investing in the future of the Anglican faith in Mandalay.
       <figure class="article-figure">
          <img src="assets/images/youth-2.jpg" alt="">
          <figcaption style="font-size: 0.85em; font-style: italic; color: #555;">
