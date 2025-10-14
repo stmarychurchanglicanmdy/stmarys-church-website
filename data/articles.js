@@ -84,7 +84,7 @@ const ARTICLES = [
     date: '2025-03-30',
     author: 'Gamaliel Tun',
     tags: ['disaster', 'community','earthquake','church'],
-    excerpt: 'Exploring themes of hope and faith in everyday life through Scripture and shared reflection.',
+    excerpt: '<p>St. Mary&#39;s Church Mandalay (Anglican) has suffered heartbreaking, catastrophic damage from the recent 7.7 magnitude earthquake. Despite the physical devastation to its historic structure, the Church of the Province of Myanmar remains resolute in faith, mobilizing for both spiritual resilience and critical humanitarian relief across the Diocese of Mandalay.</p>',
     image: {
       src: 'assets/images/eqdamage-1.jpg',
       alt: 'South Wing of the Church Severly Damaged'
@@ -176,6 +176,81 @@ const ARTICLES = [
       
       <p>We take comfort in these words as we begin the arduous process of rebuilding our sacred home.</p>
       
+      `
+  },
+  {
+    id: '4',
+    slug: 'flood-relief-mission-2024',
+    title: 'From Mission Field to Flood Relief: St. Mary’s Church Extends Ministry in Southern Shan State',
+    date: '2024-10-10',
+    author: 'Gamaliel Tun',
+    tags: ['disaster', 'community','flood relief','church','mission'],
+    excerpt: 'Our Church is actively expanding its mission among the Shan people in Ho Mong, Southern Shan State, with plans underway to build a new chapel on recently acquired land. This spiritual outreach is complemented by unwavering commitment to humanitarian aid, notably demonstrated through its vital response efforts during the devastating 2024 floods in the region.',
+    image: {
+      src: 'assets/images/linkhay-1.jpeg',
+      alt: 'Church Medical Volunteer Helping to those in need'
+    },
+    contentHtml: `
+
+      <figcaption style="font-size: 0.85em; font-style: italic; color: #555;">
+           Church Medical Volunteer Helping to those in need. Dr. Marlar Than (L), Grace Yin Oo (R)
+         </figcaption>
+         <br>
+      <p>St. Mary's Church Mandalay (Anglican) is deeply rooted in the principle that faith must be active in both word and deed. Our ongoing mission work in remote Southern Shan State exemplifies this commitment, focusing on the spiritual nurture of the Shan people while also providing critical humanitarian aid when disaster strikes.</p>
+      <h5> A New Sanctuary in Ho Mong</h5>
+      
+      <p>A primary focus of our current outreach is among the Shan ethnic group (ရှမ်းလူမျိုးများ), particularly in Ho Mong Town (ဟိုမိန်း မြို့). This region is recognized as a vital missionary frontier for St. Mary's Church Mandalay (Anglican).</p>
+      
+      <p>For the local Christian families in Ho Mong, the dream of a permanent place of worship is now moving toward reality. We are overjoyed to announce that a dedicated plot of land has been successfully secured for the construction of a new Chapel. This means the land is secured, and the planning phase for building a proper house of worship for the existing congregation is actively underway.</p>
+      
+      <p>This new Chapel will not only serve as a place of worship but also as a community hub, strengthening the fellowship of believers in an area where resources and infrastructure are often limited.</p>
+      
+      <h5>Compassion in Crisis: The 2024 Flood Response</h5>
+
+      <p>The Church's commitment to the Ho Mong area was tested and proven during the devastating 2024 floods that swept across Southern Shan State.</p>
+      <figure class="article-figure">
+         <img src="assets/images/linkhay-8.jpeg" alt="">
+         <figcaption style="font-size: 0.85em; font-style: italic; color: #555;">
+           The mark of water level during the flood. In Photo: Archdeacon Joseph Yin Oo
+         </figcaption>
+      </figure>
+      <figure class="article-figure">
+         <img src="assets/images/linkhay-2.jpeg" alt="">
+         <figcaption style="font-size: 0.85em; font-style: italic; color: #555;">
+           Volunteers
+         </figcaption>
+      </figure>
+      <figure class="article-figure">
+         <img src="assets/images/linkhay-3.jpeg" alt="">
+         <figcaption style="font-size: 0.85em; font-style: italic; color: #555;">
+           Prayers in Hand
+         </figcaption>
+      </figure>
+      <p>When the floodwaters rose, St. Mary's Church Mandalay (Anglican) teams did not hesitate. We were privileged to go to the affected area to provide aid, comfort, and practical support to the victims. This disaster response mission ensured that the Ho Mong families and their neighbours received crucial assistance during a time of immense loss and displacement. Our presence in the field during the 2024 crisis reinforced the understanding that the Church is a steadfast source of help and hope, in good times and in bad.</p>
+      <figure class="article-figure">
+         <img src="assets/images/linkhay-7.jpeg" alt="">
+         <figcaption style="font-size: 0.85em; font-style: italic; color: #555;">
+           Aftermath of the Flood
+         </figcaption>
+         <img src="assets/images/linkhay-6.jpeg" alt="">
+         <figcaption style="font-size: 0.85em; font-style: italic; color: #555;">
+           Aftermath of the Flood
+         </figcaption>
+         <img src="assets/images/linkhay-4.jpeg" alt="">
+         <figcaption style="font-size: 0.85em; font-style: italic; color: #555;">
+           Aftermath of the Flood
+         </figcaption>
+      </figure>
+
+
+
+      <h5>Support Our Dual Mission</h5>
+
+      <p>St. Mary's Church Mandalay (Anglican) stands firm in its commitment to this dual mission: building lasting spiritual foundations through the construction of the Ho Mong Chapel and offering immediate, tangible support to communities facing hardship.</p>
+
+      <p>We invite all members and partners to join us in prayer and support for the Shan people, particularly as we work to secure the remaining resources needed to build their new spiritual home.</p>
+
+
       `
   }
 ];
