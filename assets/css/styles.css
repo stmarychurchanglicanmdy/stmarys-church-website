@@ -275,7 +275,7 @@ main {
 }
 
 /* Hero section */
-.hero {
+/*.hero {
   background-color: var(--color-bg-alt);
   background: url('../images/stmarychurchphoto-6.jpg');
   background-size: cover;
@@ -326,7 +326,68 @@ main {
   gap: var(--spacing-sm);
   justify-content: center;
   flex-wrap: wrap;
+}*/
+
+/* Hero section - Full Page, Fully Filled Background */
+.hero {
+  position: relative;
+  height: 100vh; /* full viewport height */
+  width: 100%; /* full width */
+  display: flex;
+  align-items: center; /* vertically center content */
+  justify-content: center; /* horizontally center content */
+  text-align: center;
+  overflow: hidden;
+
+  /* Background image fill */
+  background-image: url('../images/stmarychurchphoto-6.jpg');
+  background-size: cover; /* ensures the image always fills the area */
+  background-position: center center; /* keeps image centered */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* optional: creates a nice parallax effect */
 }
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(255, 255, 255, 0.55); /* light overlay for readability */
+  z-index: 0;
+}
+
+[data-theme="dark"] .hero::before {
+  background-color: rgba(26, 26, 26, 0.85);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1; /* ensure content sits above overlay */
+  max-width: var(--max-width);
+  padding: 0 var(--spacing-md);
+  color: var(--color-text);
+}
+
+.hero-title {
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-text);
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+.hero-tagline {
+  font-size: clamp(1.125rem, 3vw, 1.5rem);
+  color: var(--color-text);
+  margin-bottom: var(--spacing-lg);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.hero-actions {
+  display: flex;
+  gap: var(--spacing-sm);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 
 /* Buttons */
 .btn {
