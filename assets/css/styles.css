@@ -331,27 +331,27 @@ main {
 /* Hero section - Full Page, Fully Filled Background */
 .hero {
   position: relative;
-  height: 100vh; /* full viewport height */
-  width: 100%; /* full width */
+  height: 100vh;
+  width: 100%;
   display: flex;
-  align-items: center; /* vertically center content */
-  justify-content: center; /* horizontally center content */
+  align-items: center;
+  justify-content: center;
   text-align: center;
   overflow: hidden;
 
   /* Background image fill */
   background-image: url('../images/stmarychurchphoto-6.jpg');
-  background-size: cover; /* ensures the image always fills the area */
-  background-position: center center; /* keeps image centered */
+  background-size: cover;
+  background-position: center center; /* center image */
   background-repeat: no-repeat;
-  background-attachment: fixed; /* optional: creates a nice parallax effect */
+  background-attachment: fixed; /* parallax effect */
 }
 
 .hero::before {
   content: '';
   position: absolute;
   inset: 0;
-  background-color: rgba(255, 255, 255, 0.55); /* light overlay for readability */
+  background-color: rgba(255, 255, 255, 0.55);
   z-index: 0;
 }
 
@@ -361,7 +361,7 @@ main {
 
 .hero-content {
   position: relative;
-  z-index: 1; /* ensure content sits above overlay */
+  z-index: 1;
   max-width: var(--max-width);
   padding: 0 var(--spacing-md);
   color: var(--color-text);
@@ -386,6 +386,22 @@ main {
   gap: var(--spacing-sm);
   justify-content: center;
   flex-wrap: wrap;
+}
+
+/* 📱 Mobile optimization */
+@media (max-width: 768px) {
+  .hero {
+    background-position: center center !important; /* always focus the center */
+    background-attachment: scroll; /* smoother on mobile (fixed causes jitter) */
+  }
+
+  .hero::before {
+    background-color: rgba(255, 255, 255, 0.6); /* slightly stronger overlay for readability */
+  }
+
+  [data-theme="dark"] .hero::before {
+    background-color: rgba(26, 26, 26, 0.9);
+  }
 }
 
 
