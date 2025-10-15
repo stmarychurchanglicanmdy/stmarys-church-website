@@ -1,15 +1,14 @@
 /* CSS Variables for theming */
 :root {
-  /* Colors */
-  --color-bg: #ffffff;
-  --color-bg-alt: #f6f6f6;
-  --color-text: #222222;
-  --color-text-muted: #888888;
-  --color-accent: #1f6f5f;
-  --color-accent-light: #2a8a78;
-  --color-border: #e0e0e0;
-  --color-shadow: rgba(0, 0, 0, 0.1);
-  
+  --color-bg: #FAF7F2;             /* cream */
+  --color-bg-alt: #F1ECE4;         /* cream-dark */
+  --color-text: #2C2C2C;           /* slate */
+  --color-text-muted: #5A5A5A;     /* slate-light */
+  --color-accent: #5B2333;         /* burgundy */
+  --color-accent-light: #C9A227;   /* gold */
+  --color-border: #E0E0E0;
+  --color-shadow: rgba(91, 35, 51, 0.1); /* subtle burgundy shadow tint */
+
   /* Typography */
   --font-serif: 'Merriweather', Georgia, serif;
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
@@ -27,16 +26,15 @@
   --transition: all 0.3s ease;
 }
 
-/* Dark theme */
 [data-theme="dark"] {
-  --color-bg: #1a1a1a;
-  --color-bg-alt: #2a2a2a;
-  --color-text: #e0e0e0;
-  --color-text-muted: #a0a0a0;
-  --color-accent: #2a8a78;
-  --color-accent-light: #3aa090;
-  --color-border: #404040;
-  --color-shadow: rgba(0, 0, 0, 0.3);
+  --color-bg: #2C2C2C;             /* dark slate */
+  --color-bg-alt: #5B2333;         /* burgundy base */
+  --color-text: #FAF7F2;           /* cream text */
+  --color-text-muted: #F1ECE4;     /* soft cream for muted text */
+  --color-accent: #C9A227;         /* gold highlight */
+  --color-accent-light: #EBD580;   /* lighter gold hover */
+  --color-border: #5A5A5A;
+  --color-shadow: rgba(201, 162, 39, 0.25); /* warm gold shadow */
 }
 
 /* Reset and base styles */
