@@ -24,6 +24,44 @@
     
     <!-- Styles -->
     <link rel="stylesheet" href="assets/css/styles.css">
+    
+    <style>
+        .hero {
+            background-image: url('assets/images/news.jpg') !important;
+        }
+        
+        .hero-content {
+            position: relative !important;
+            margin-bottom: 4rem !important;
+        }
+        
+        @keyframes scroll-bounce {
+            0%, 100% { 
+                opacity: 1;
+                transform: translateX(-50%) translateY(0);
+            }
+            50% { 
+                opacity: 0.7;
+                transform: translateX(-50%) translateY(15px);
+            }
+        }
+        
+        .scroll-indicator {
+            position: absolute !important;
+            bottom: 7rem !important;
+            left: 50% !important;
+            z-index: 10 !important;
+            animation: scroll-bounce 2s ease-in-out infinite !important;
+            cursor: pointer;
+        }
+        main {
+            padding-top: 3rem;
+        }
+
+        scroll-indicator svg {
+            pointer-events: auto;
+        }
+    </style>
 </head>
 <body>
     <header class="header">
@@ -50,26 +88,32 @@
         </div>
     </header>
 
-    <main>
-        <div class="container">
-            <header class="page-header">
-                <h1>News and Articles</h1>
-                <p>News, reflections, and updates from our church community.</p>
-            </header>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">News and Articles</h1>
+            <p class="hero-tagline">Stories, reflections, and updates from our community</p>
+        </div>
+        <div class="scroll-indicator" onclick="document.querySelector('.page-content').scrollIntoView({behavior: 'smooth'});">
+            <svg viewBox="0 0 24 24" width="30" height="30" stroke="white" stroke-width="2" fill="none">
+                <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+        </div>
+    </section>
 
+    <main id="articles-section" class="page-content">
+        <div class="container">
             <!-- Filters and Search -->
             <div class="articles-controls">
                 <div class="search-box">
                     <label for="article-search" class="sr-only">Search News and Articles</label>
                     <input type="text" id="article-search" placeholder="Search articles..." class="search-input">
                 </div>
-                
                 <div class="filter-controls">
                     <label for="tag-filter" class="filter-label">Filter by tag:</label>
                     <select id="tag-filter" class="tag-filter">
                         <option value="">All tags</option>
                     </select>
-                    
                     <label for="sort-order" class="filter-label">Sort by:</label>
                     <select id="sort-order" class="sort-filter">
                         <option value="newest">Newest first</option>
@@ -113,8 +157,8 @@
                 </div>
                 <div class="footer-contact">
                     <h4>Contact</h4>
-                    <p>Email: <a href="mailto:info@stmarymandalay.org">info@stmarymandalay.org</a></p>
-                    <p>Phone: <a href="tel:+959000000000">+95 9 000 000 000</a></p>
+                    <p>Email: <a href="mailto:stmarychurchanglicanmdy@gmail.com">stmarychurchanglicanmdy@gmail.com</a></p>
+                    <p>Phone: <a href="tel:+959402610602">+959402610602</a></p>
                 </div>
             </div>
             <div class="footer-bottom">
@@ -133,4 +177,5 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/articles.js"></script>
 </body>
+
 </html>

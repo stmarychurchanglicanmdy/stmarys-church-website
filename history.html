@@ -24,6 +24,36 @@
     
     <!-- Styles -->
     <link rel="stylesheet" href="assets/css/styles.css">
+    
+    <style>
+        .hero {
+            background-image: url('assets/images/history.jpg') !important;
+        }
+        
+        .hero-content {
+            position: relative !important;
+            margin-bottom: 4rem !important;
+        }
+        
+        @keyframes scroll-bounce {
+            0%, 100% { 
+                opacity: 1;
+                transform: translateX(-50%) translateY(0);
+            }
+            50% { 
+                opacity: 0.7;
+                transform: translateX(-50%) translateY(15px);
+            }
+        }
+        
+        .scroll-indicator {
+            position: absolute !important;
+            bottom: 7rem !important;
+            left: 50% !important;
+            z-index: 1 !important;
+            animation: scroll-bounce 2s ease-in-out infinite !important;
+        }
+    </style>
 </head>
 <body>
     <header class="header">
@@ -50,23 +80,32 @@
         </div>
     </header>
 
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Our Story</h1>
+            <p class="hero-tagline">A Testament to Faith, Heritage, and Community</p>
+        </div>
+        <div class="scroll-indicator" onclick="document.querySelector('.page-content').scrollIntoView({behavior: 'smooth'});">
+            <svg viewBox="0 0 24 24" width="30" height="30" stroke="white" stroke-width="2" fill="none">
+                <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+        </div>
+    </section>
+
     <main>
         <article class="page-content">
             <div class="container">
-                <header class="page-header">
-                    <h1>Our Story</h1>
-                </header>
-
                 <div class="content">
                     <section class="content-section">
                         <h3>Origins Amid Colonial Mandalay</h3>
-                        <p>European civilian residents in Mandalay, unlike military personnel, worshipped at Christ Church, but often found the service hours inconvenient. As early as 1891 they had their own “Town Chaplain” but still no dedicated church building.</p>
+                        <p>European civilian residents in Mandalay, unlike military personnel, worshipped at Christ Church, but often found the service hours inconvenient. As early as 1891 they had their own "Town Chaplain" but still no dedicated church building.</p>
                         
                         <p>A site was eventually secured on South Moat Road, and fundraising commenced. Rev. C. W. Hodder, A.C.S. Chaplain, took the lead; he acted not only as the spiritual head of the project but also as the architect, contractor, and superintendent of works.</p>
                     </section>
 
                     <section class="content-section">
-                        <h3>Foundation, Construction, and Consecration-A Queen's Memorial</h3>
+                        <h3>Foundation, Construction, and Consecration—A Queen's Memorial</h3>
                         <p>The laying of the foundation stone was originally planned for February 2, 1901. However, this solemn event was tragically delayed by the illness and subsequent death of Queen Victoria, a moment of profound national mourning across the British Empire.</p>
                         <p>When the foundation stone was finally laid on February 16, 1901, by The Right Reverend John Miller Strachan, Bishop of Rangoon (D.D.M.D.), Reverend Hodder, with remarkable foresight and a deep sense of national sentiment, boldly declared St. Mary's to be a Memorial Church to our loved Queen Victoria.</p>
                         <p>Exactly one year later, on February 16, 1902, St. Mary's Church was consecrated by Bishop John Miller Strachan, who also held a Confirmation service in the Church that very same evening, marking its official opening for worship.</p>
@@ -86,7 +125,7 @@
                             A Parsee donated the nave carpet
                             A Mohammedan (Muslim) contributed the Chancel Screen
                             Buddhists offered a processional cross and precious stones for the altar cross</p>
-                        <p>In the broader scope, the Anglican Church had been active in Myanmar since the 19th century not only in church-planting but also in education. Institutions like St. Mary’s in Mandalay and St. Michael’s in May Myo (Pyin Oo Lwin) were part of this network.</p>
+                        <p>In the broader scope, the Anglican Church had been active in Myanmar since the 19th century not only in church-planting but also in education. Institutions like St. Mary's in Mandalay and St. Michael's in May Myo (Pyin Oo Lwin) were part of this network.</p>
                         <p>St. Mary's Church still stands today as a symbol of both religious faith and cultural unity, and occupies an important place in Mandalay's colonial and post-colonial religious history.</p>
         
                     </section>
@@ -148,4 +187,3 @@
 </body>
 
 </html>
-

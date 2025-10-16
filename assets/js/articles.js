@@ -126,13 +126,23 @@
     const articlesToShow = filteredArticles.slice(startIndex, endIndex);
 
     // Render articles
+    //renderArticleCards(articlesToShow, container);
+
+    // Render pagination
+    //renderPagination(filteredArticles.length);
+
+    // Scroll to top of articles
+    //container.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    // Render articles
     renderArticleCards(articlesToShow, container);
 
     // Render pagination
     renderPagination(filteredArticles.length);
 
-    // Scroll to top of articles
+    // Scroll to articles only if user filtered/searched (not on initial load)
+    if (currentPage > 1 || document.getElementById('article-search')?.value || document.getElementById('tag-filter')?.value) {
     container.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
   }
 
   function renderArticleCards(articles, container) {
