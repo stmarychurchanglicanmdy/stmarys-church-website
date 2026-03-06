@@ -621,6 +621,56 @@ main {
   font-weight: 500;
   color: var(--color-accent);
 }
+/* Community stats */
+.community-stats {
+  padding: var(--spacing-lg) 0;
+  background-color: var(--color-bg);
+}
+
+.community-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(220px, 1fr));
+  gap: var(--spacing-md);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.community-stat-card {
+  background-color: var(--color-bg-alt);
+  padding: var(--spacing-lg);
+  border-radius: var(--border-radius);
+  text-align: center;
+  box-shadow: 0 2px 10px var(--color-shadow);
+  border: 1px solid var(--color-border);
+  transition: var(--transition);
+}
+
+.community-stat-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px var(--color-shadow);
+}
+
+.community-stat-number {
+  font-family: var(--font-serif);
+  font-size: clamp(2.2rem, 6vw, 3.5rem);
+  line-height: 1;
+  color: var(--color-accent);
+  margin-bottom: 0.5rem;
+}
+
+.community-stat-label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  letter-spacing: 0.02em;
+}
+
+@media (max-width: 768px) {
+  .community-stats-grid {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+  }
+}
 
 /*added history session*/
 .timeline-title{
@@ -1175,3 +1225,4 @@ main {
     scroll-behavior: auto;
   }
 }
+
