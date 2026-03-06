@@ -318,6 +318,113 @@ const ARTICLES = [
       </figure>
 </p>
       `
+  },
+  {
+    id: '7',
+    slug: 'church-restoration-rededication-2026',
+    title: 'Earthquake Relief, Restoration, and Rededication of St. Mary’s Church',
+    date: '2026-01-25',
+    author: 'St. Mary’s Church Mandalay',
+    tags: ['church','earthquake','restoration','community','rededication'],
+    excerpt: 'Following the devastating March 2025 earthquake that damaged St. Mary’s Church in Mandalay, the church community, partners, and donors came together to restore the historic building. The church was successfully rebuilt and rededicated on 25 January 2026 as a testimony of faith, unity, and generosity.',
+    image: {
+      src: '/assets/images/restoration/restoredsmc.JPG',
+      alt: 'Restored St. Mary’s Church building after earthquake repairs'
+    },
+    contentHtml: `
+  
+        <figcaption style="font-size:0.85em;font-style:italic;color:#555;">
+          The restored St. Mary’s Church building following the earthquake reconstruction.
+        </figcaption>
+  
+      <p>In <strong>March 2025</strong>, a major earthquake struck the region and caused significant damage to communities and infrastructure, including the premises of <strong>St. Mary’s Church</strong>. The church building sustained serious structural damage and was declared unsafe for regular use.</p>
+  
+      <p>This unexpected disaster disrupted the regular worship life of the congregation and required immediate attention and recovery efforts.</p>
+  
+      <h3>Immediate Response and Recovery</h3>
+  
+      <p>In response to the situation, church leadership promptly initiated safety assessments and coordinated recovery measures. Damaged areas were inspected, the premises were cleared, and careful planning began for the restoration of the church so that it could once again serve as a safe place of worship, fellowship, and ministry.</p>
+  
+      <figure class="article-figure">
+        <img src="/assets/images/restoration/volunteers.jpg" alt="">
+        <figcaption style="font-size:0.85em;font-style:italic;color:#555;">
+          Church members and volunteers assisting in cleanup and preparation for rebuilding.
+        </figcaption>
+      </figure>
+  
+      <h3>Support from the Church Community</h3>
+  
+      <p>During this challenging period, the church received generous support from many faithful partners. The <strong>Diocese, CPM, church members, volunteers, and friends of the church</strong> extended their prayers, encouragement, and practical assistance.</p>
+  
+      <p>Through the generosity of donors from both local and international communities, the church received a <strong>total contribution of MMK 487,668,660.91</strong> in support of earthquake relief and restoration efforts.</p>
+  
+      <p>From this amount, <strong>MMK 406,171,282</strong> has been utilized for structural repairs, rebuilding works, and other necessary expenses related to restoring the church facilities and continuing ministry services.</p>
+  
+      <p>After these expenditures, the <strong>remaining balance stands at MMK 31,497,378</strong>, which will continue to support ongoing work related to church facilities and ministry.</p>
+  
+      <p>Additional renovation projects are still planned, including the <strong>repair and improvement of the priest’s residence and the church hall</strong>, which remain important parts of the church compound.</p>
+  
+      <h3>Rededication of the Church</h3>
+  
+      <figure class="article-figure">
+        <img src="/assets/images/restoration/23.png" alt="">
+        <figcaption style="font-size:0.85em;font-style:italic;color:#555;">
+          The Rededication Service of St. Mary’s Church held on 25 January 2026.
+        </figcaption>
+      </figure>
+  
+      <p>With the grace of God and the collective support of many partners, the restoration of the church building was successfully completed.</p>
+  
+      <p>To mark this important milestone, a <strong>Rededication Service was held on 25 January 2026</strong>, bringing together clergy, church members, and friends of the church to give thanks to God for His guidance and provision throughout the rebuilding process.</p>
+  
+      <h3>Appreciation Message</h3>
+  
+      <p>The church shares a message of appreciation from the Priest-in-Charge, expressing gratitude to all partners and supporters who contributed to the rebuilding effort.</p>
+  
+      <div class="article-video">
+        <iframe 
+          width="100%" 
+          height="450"
+          src="https://www.youtube.com/embed/w6JwKCz0BnU"
+          title="Appreciation Message"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+  
+      <h3>Rededication Service – Full Recording</h3>
+  
+      <p>Below is the full live recording of the Rededication Service held at St. Mary’s Church.</p>
+  
+      <div class="article-video">
+        <iframe 
+          width="100%" 
+          height="450"
+          src="https://www.youtube.com/embed/XOYPdUkksVg"
+          title="Appreciation Message"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+  
+      <h3>A Testimony of Faith and Unity</h3>
+  
+      <p>The rededicated church now stands not only as a restored building but also as a testimony of <strong>faith, unity, and the generous support of the wider Christian community</strong>.</p>
+  
+      <p>St. Mary’s Church extends its sincere appreciation to the <strong>Diocese, CPM, partner churches, donors, volunteers, and all who contributed</strong> through prayers, financial support, and service.</p>
+  
+      <p>May God bless all who have supported this journey of rebuilding and renewal.</p>
+
+      <h3>Mission Partnership</h3>
+
+      <p>The church would also like to highlight its ongoing partnership with <strong>St. Luke’s Church in Linhkhe</strong>, which is a mission parish connected to St. Mary’s Church and actively involved in the <strong>Shan mission ministry</strong>.</p>
+
+      <p>As part of this partnership and commitment to mission outreach, <strong>St. Mary’s Church donated MMK 50,000,000 (500 lakhs)</strong> to support the construction of a <strong>chapel in the Home Mission area</strong>. This contribution strengthens the church’s shared mission work and supports the growth of Christian ministry among the Shan communities.</p>
+ 
+  
+    `
   }
 ];
 
